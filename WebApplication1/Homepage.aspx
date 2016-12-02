@@ -19,6 +19,12 @@
             width: 457px;
             text-align: right;
         }
+        .auto-style5 {
+            text-align: right;
+        }
+        .auto-style6 {
+            text-align: left;
+        }
     </style>
 </head>
 <body>
@@ -26,6 +32,12 @@
     <div>
     
         <table class="auto-style1">
+            <tr>
+                <td class="auto-style2">&nbsp;</td>
+                <td class="auto-style6">
+                    <asp:HyperLink ID="HyperLink2" runat="server">Contact Us</asp:HyperLink>
+                </td>
+            </tr>
             <tr>
                 <td class="auto-style2" colspan="2"><strong>Bit code Technologies Ltd </strong></td>
             </tr>
@@ -53,6 +65,12 @@
                 </td>
                 <td>
                     <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/RegisterNow.aspx">No Account ! Register Now</asp:HyperLink>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style5">&nbsp;</td>
+                <td>
+                    <asp:ImageButton ID="ImgBtnFacebook" runat="server" Height="50px" ImageUrl="~/Images/logo-facebook.png" PostBackUrl="https://www.facebook.com/" Width="50px" />
                 </td>
             </tr>
         </table>

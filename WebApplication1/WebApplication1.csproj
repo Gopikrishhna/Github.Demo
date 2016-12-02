@@ -107,6 +107,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Homepage.aspx" />
+    <Content Include="Images\logo-facebook.png" />
     <Content Include="RegisterNow.aspx" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
